@@ -18,8 +18,8 @@
                 <li class="active"><a href="/">Home</a></li>
                 <li class=""><a href="/posts/">Posts</a></li>
                 <li class="navbar-text navbar-right">
-                    <form sec:authorize="isAuthenticated()" id="frmlogout" th:action="@{/logout}" method="post" class="form-inline">
-                        <a href="javascript:{}" onclick="document.getElementById('frmlogout').submit(); return false;">Logout</a>
+                    <form  id="frmlogout" th:action="@{/logout}" method="post" class="form-inline">
+                        <a href="#">Logout</a>
                     </form>
                 </li>
                 <li sec:authorize="hasRole('ROLE_ADMIN')">
@@ -37,10 +37,12 @@
         </div>
     </div>
     <div class="grid-item footer">
-        <small>&copy;wcci 2018</small>
+        <small>&copy;wcci 2020</small>
     </div>
 
 </div> <!-- container -->
+
+<script src="/js/index.js"></script>
 
 </body>
 </html>

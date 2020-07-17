@@ -47,9 +47,8 @@ public class SiteController {
 
 
     @RequestMapping("/admin/testing")
-    @ResponseBody
     public String secure() {
-        return "admin-only.html";
+        return "admin-only";
     }
 
 
