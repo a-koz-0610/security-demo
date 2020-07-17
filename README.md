@@ -11,7 +11,7 @@
 - `th:if` statements
 
 ## User access
-**user name** | **password**
-admin | admin
-user1 | user1
-user2 | user2
+**user name** || **password**
+admin || admin
+user1 || user1
+user2 || user2
