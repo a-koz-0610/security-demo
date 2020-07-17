@@ -1,5 +1,5 @@
-const loginForm = document.getElementById('frmlogout');
+const logoutForm = document.getElementById('frmlogout');
 
-loginForm.addEventListener('click', ()=>{
-    loginForm.submit();
+logoutForm.addEventListener('click', ()=>{
+    logoutForm.submit();
 })
